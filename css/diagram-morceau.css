@@ -1,0 +1,17 @@
+.accords-diagrammes {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement (si nécessaire) */
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.accord-diagramme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accord-diagramme img {
+    width: 50px;
+}
